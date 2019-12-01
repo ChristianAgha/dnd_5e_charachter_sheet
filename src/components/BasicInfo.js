@@ -24,11 +24,11 @@ const BasicInfo = ()  => {
     const [getLanguages, setLanguages] = useState([]);
 
     useEffect( () => {
-        axios.get('/classes/')
+        axios.get('http://www.dnd5eapi.co/api/classes/')
         .then((response) => {
             setClassOptions(response.data.results);
         });
-        axios.get('/races/')
+        axios.get('http://www.dnd5eapi.co/api/races/')
         .then((response) => {
             setRaceOptions(response.data.results);
         });
@@ -47,7 +47,7 @@ const BasicInfo = ()  => {
     }
 
     function getRaceLanguages(raceIndex) {
-        axios.get(`/races/${raceIndex}`)
+        axios.get(`http://www.dnd5eapi.co/api/races/${raceIndex}`)
         .then((response) => {
         let languages = [];
         response.data.languages.forEach((e)  => {
@@ -58,7 +58,7 @@ const BasicInfo = ()  => {
     };
 
     function getClassProficiencies(classIndex) {
-        axios.get(`/classes/${classIndex}`)
+        axios.get(`http://www.dnd5eapi.co/api/classes/${classIndex}`)
         .then((response) => {
         let proficiencies = [];
         response.data.proficiencies.forEach((e)  => {
