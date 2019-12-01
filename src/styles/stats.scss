@@ -1,0 +1,72 @@
+.score-calculator {
+    text-align: center;
+    h2 {
+        font-size: 2rem;
+        color: red;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+.stats {
+    width: 33%;
+    flex-grow: 1;
+
+    &-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &-key,
+    &-score,
+    &-modifier {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgb(214, 214, 214);
+    color: #444;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}  
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #eee;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+} 
+
+.react-sanfona-item-title {
+    color: #444;
+}
+
+.NameRaceClass {
+    text-align: center;
+    font-size: 2rem;;
+}
+
+.LanguageProficienciesList {
+    padding: 5px;
+    list-style-type: decimal;
+}
