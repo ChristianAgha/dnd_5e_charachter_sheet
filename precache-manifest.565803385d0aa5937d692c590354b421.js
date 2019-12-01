@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbe250b4d03800535f3707fe8a0715cf",
+    "revision": "157cfe200437e66cfd71ac987d45971f",
     "url": "/dnd_5e_charachter_sheet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd_5e_charachter_sheet/static/css/2.90c52f18.chunk.css"
   },
   {
-    "revision": "6db0a3a600cde54cdc3c",
+    "revision": "4c4dd6e4d95419259e43",
     "url": "/dnd_5e_charachter_sheet/static/css/main.158261c8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd_5e_charachter_sheet/static/js/2.4af0b779.chunk.js"
   },
   {
-    "revision": "6db0a3a600cde54cdc3c",
-    "url": "/dnd_5e_charachter_sheet/static/js/main.af915110.chunk.js"
+    "revision": "4c4dd6e4d95419259e43",
+    "url": "/dnd_5e_charachter_sheet/static/js/main.652ac1ff.chunk.js"
   },
   {
     "revision": "978330f78581d4d32407",
