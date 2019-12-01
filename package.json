@@ -10,6 +10,7 @@
     "node-sass": "^4.13.0",
     "primeicons": "^2.0.0",
     "primereact": "^3.3.2",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-sanfona": "^1.4.0",
